@@ -7,18 +7,6 @@
     font-family: Open Sans, 'inter';
     margin: 10%;
     }
-  .top {
-    grid-area: header;
-  }
-  .middle {
-    grid-area: main;
-  }
-  .bottom {
-    grid-area: footer;
-  }
-  .middle-side {
-    grid-area: sidebar;
-  }
   .page {
     display: flex;
     flex-flow: column wrap;
@@ -34,6 +22,7 @@
     align-items: center;
     justify-content: center;
     color: black;
+    box-shadow: 0 0 40px 0 rgba(211, 209, 209, 0.8);
     }
   .top {
     display: flex;
@@ -46,10 +35,12 @@
   }
 .w {
   font-weight: bolder;
-  font-size: 300%; 
+  font-size: 300%;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: left;
+  margin-right: 54%;
 }
 .navigation {
-    margin-left: 40%;
     word-spacing: 20px;
     color: grey;
     font-weight: 400;
